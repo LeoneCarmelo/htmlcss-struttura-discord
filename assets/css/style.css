@@ -21,6 +21,7 @@
 --block4: #f08080;
 --block5: #20b2aa;
 --footer: #7fffd4;
+--bgfooterbtn:#ffb6c1;
 }
 /* #endregion color */
 
@@ -39,6 +40,10 @@
 
 .h-section{
     height:100vh;
+}
+
+.section{
+    align-items: center;
 }
 /* #endregion utility */
 
@@ -84,10 +89,6 @@ a{
     height: 80%;
 }
 
-.section{
-    align-items: center;
-}
-
 .cont-block{
     justify-content: center;
     width:75%;
@@ -117,3 +118,30 @@ a{
 }
 
 /* #endregion sections */
+
+/* #region footer */
+.bg-black{
+    background-color: var(--bgsection3);
+}
+.block-orange{
+    height: 100%;
+    width: 28%;
+    background-color: var(--block4);
+}
+
+.block-green{
+    height: 100%;
+    width: 18%;
+    background-color: var(--block5);
+    border: 2px dashed white;
+}
+.bg-foot{
+    background-color: var(--footer);
+}
+.jc-betw{
+    justify-content: space-between;
+}
+ .bg-foot-btn{
+    background-color: var(--bgfooterbtn);
+ }
+/* #endregion footer */
