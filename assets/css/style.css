@@ -36,6 +36,10 @@
 .pad{
     padding: 10px;
 }
+
+.h-section{
+    height:100vh;
+}
 /* #endregion utility */
 
 /* #region header style */
@@ -68,8 +72,8 @@ a{
 }
 /* #endregion header style */
 
+/* #region sections */
 .banner{
-    height: 100vh;
     background-color: var(--bgbanner);
     justify-content: center;
     align-items: center;
@@ -79,3 +83,37 @@ a{
     width: 60%;
     height: 80%;
 }
+
+.section{
+    align-items: center;
+}
+
+.cont-block{
+    justify-content: center;
+    width:75%;
+    height:80%;
+    margin: 0 auto;
+}
+.image{
+    height:80%;
+    width:70%;
+    background-color: var(--block1);
+}
+
+.description{
+    height: 80%;
+    width:30%;
+    background-color: var(--block2);
+}
+
+.bg-grey{
+    background-color: var(--bgsection2);
+}
+
+.sec-to-last{
+    background-color: var(--block3);
+    width: 75%;
+    height: 100%;
+}
+
+/* #endregion sections */
