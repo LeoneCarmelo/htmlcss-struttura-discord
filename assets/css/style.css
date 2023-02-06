@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 /* #endregion reset */
 
 /* #region color */
@@ -67,23 +71,50 @@ nav{
     padding: 0 160px;
 }
 a{
-    padding:0 0.5rem;
+    padding:0 0.8rem;
     color: black;
     text-decoration: none;
 }
 /* #endregion header style */
 
 /* #region sections */
+/* #region banner */
 .banner{
     background-color: var(--bgbanner);
     justify-content: center;
 }
 .ban{
     background-color: var(--banner);
+    color: white;
     width: 60%;
     height: 80%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
+h1{
+    padding: 2rem 0;
+    font-size: 50px;
+}
+.ban p{
+    padding-bottom: 1rem;
+    margin:0 4rem;
+    font-size: large;
+}
+
+.ban button{
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border-radius:50px;
+    border:none;
+}
+
+.ban button:last-child{
+    color: white;
+    background-color: black;
+}
+/* #endregion banner */
 .cont-block{
     justify-content: center;
     width:75%;
@@ -100,6 +131,12 @@ a{
     height: 80%;
     width:30%;
     background-color: var(--block2);
+    padding: 2.5rem;
+    font-size: 1.4rem;
+}
+.description p{
+    padding-top: 10px;
+    font-size: small;
 }
 
 .bg-grey{
@@ -110,11 +147,19 @@ a{
     background-color: var(--block3);
     width: 75%;
     height: 100%;
+    text-align: center;
 }
+.sec-to-last h2{
+    font-size: 2rem;
+}
+
 
 /* #endregion sections */
 
 /* #region footer */
+h3{
+    font-size: 2rem;
+}
 .bg-black{
     background-color: var(--bgsection3);
 }
@@ -129,6 +174,12 @@ a{
     width: 18%;
     background-color: var(--block5);
     border: 2px dashed white;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding:8px 0;
 }
 .bg-foot{
     background-color: var(--footer);
